@@ -10,6 +10,7 @@
 #include <Bounce.h>
 #include <FastLED.h>
 
+
 // GUItool: begin automatically generated code
 AudioPlaySdWav           sound0;         //xy=142,116
 AudioPlaySdWav           sound1;         //xy=158,190
@@ -18,6 +19,8 @@ AudioPlaySdWav           sound3;         //xy=208,308
 AudioPlaySdWav           sound4; //xy=218.1999969482422,368.1999816894531
 AudioPlaySdWav           sound5; //xy=229.1999969482422,422.1999816894531
 AudioPlaySdWav           sound6; //xy=238.1999969482422,475.1999816894531
+AudioPlaySdWav           sound7; //xy=247.1999969482422,518.2000122070312
+AudioPlaySdWav           sound8; //xy=248.1999969482422,559.2000122070312
 AudioMixer4              mixL1;           //xy=414.99999237060547,140.00000190734863
 AudioMixer4              mixR1; //xy=423.1999740600586,317.1999702453613
 AudioMixer4              mixL2; //xy=448.1999816894531,411.1999816894531
@@ -39,12 +42,16 @@ AudioConnection          patchCord11(sound5, 0, mixL2, 1);
 AudioConnection          patchCord12(sound5, 1, mixR2, 1);
 AudioConnection          patchCord13(sound6, 0, mixL2, 2);
 AudioConnection          patchCord14(sound6, 1, mixR2, 2);
-AudioConnection          patchCord15(mixL1, 0, mixL3, 0);
-AudioConnection          patchCord16(mixR1, 0, mixR3, 0);
-AudioConnection          patchCord17(mixL2, 0, mixL3, 1);
-AudioConnection          patchCord18(mixR2, 0, mixR3, 1);
-AudioConnection          patchCord19(mixL3, 0, i2s1, 0);
-AudioConnection          patchCord20(mixR3, 0, i2s1, 1);
+AudioConnection          patchCord15(sound7, 0, mixL2, 3);
+AudioConnection          patchCord16(sound7, 1, mixR2, 3);
+AudioConnection          patchCord17(sound8, 0, mixL3, 2);
+AudioConnection          patchCord18(sound8, 1, mixR3, 2);
+AudioConnection          patchCord19(mixL1, 0, mixL3, 0);
+AudioConnection          patchCord20(mixR1, 0, mixR3, 0);
+AudioConnection          patchCord21(mixL2, 0, mixL3, 1);
+AudioConnection          patchCord22(mixR2, 0, mixR3, 1);
+AudioConnection          patchCord23(mixL3, 0, i2s1, 0);
+AudioConnection          patchCord24(mixR3, 0, i2s1, 1);
 // GUItool: end automatically generated code
 
 /// LED SETUP //////
@@ -69,6 +76,8 @@ Bounce button3 = Bounce(3, 5);
 Bounce button4 = Bounce(4, 5);
 Bounce button5 = Bounce(5, 5);
 Bounce button6 = Bounce(6, 5);
+Bounce button7 = Bounce(10, 5);
+Bounce button8 = Bounce(11, 5);
 
 
 void setup() {
@@ -81,6 +90,8 @@ void setup() {
   pinMode(4, INPUT_PULLUP);
   pinMode(5, INPUT_PULLUP);
   pinMode(6, INPUT_PULLUP);
+  pinMode(10, INPUT_PULLUP);
+  pinMode(11, INPUT_PULLUP);
 
   // Initialize FastLED
   FastLED.addLeds<WS2812B, LED_PIN, GRB>(leds, NUM_LEDS);
@@ -114,13 +125,17 @@ void setup() {
   mixL2.gain(0, 0.4);
   mixL2.gain(1, 0.4);
   mixL2.gain(2, 0.4);
+  mixL2.gain(3, 0.4);
   mixR2.gain(0, 0.4);
   mixR2.gain(1, 0.4);
   mixR2.gain(2, 0.4);
+  mixR2.gain(3, 0.4);
   mixL3.gain(0, 0.4);
   mixL3.gain(1, 0.4);
+  mixL3.gain(2, 0.4);
   mixR3.gain(0, 0.4);
   mixR3.gain(1, 0.4);
+  mixR3.gain(2, 0.4);
 }
 
 
@@ -133,6 +148,8 @@ void loop() {
   button4.update();
   button5.update();
   button6.update();
+  button7.update();
+  button8.update();
 
   // When the buttons are pressed, just start a sound playing.
   // The audio library will play each sound through the mixers
@@ -144,35 +161,47 @@ void loop() {
     //    fill_solid(leds, NUM_LEDS, CRGB::Amethyst);
     //    FastLED.show();
   }
-  if (button1.risingEdge()) {
+  if (button1.fallingEdge()) {
     sound1.play("sound1.wav");
     colorWipeAnimation(CRGB::Green); // Start the color wipe animation with green color
     //    fill_solid(leds, NUM_LEDS, CRGB::Aquamarine);
     //    FastLED.show();
   }
-  if (button2.risingEdge()) {
+  if (button2.fallingEdge()) {
     sound2.play("sound2.wav");
     fill_solid(leds, NUM_LEDS, CRGB::Chartreuse);
     FastLED.show();
   }
-  if (button3.risingEdge()) {
+  if (button3.fallingEdge()) {
     sound3.play("sound3.wav");
     fill_solid(leds, NUM_LEDS, CRGB::Coral);
     FastLED.show();
   }
-  if (button4.risingEdge()) {
+  if (button4.fallingEdge()) {
     sound4.play("sound4.wav");
     fill_solid(leds, NUM_LEDS, CRGB::DeepPink);
     FastLED.show();
   }
-  if (button5.risingEdge()) {
+  if (button5.fallingEdge()) {
     sound5.play("sound5.wav");
     fill_solid(leds, NUM_LEDS, CRGB::SlateBlue);
     FastLED.show();
   }
-  if (button6.risingEdge()) {
+  if (button6.fallingEdge()) {
     sound6.play("sound6.wav");
     fill_solid(leds, NUM_LEDS, CRGB::Yellow);
+    FastLED.show();
+  }
+
+  if (button7.fallingEdge()) {
+    sound7.play("sound7.wav");
+    fill_solid(leds, NUM_LEDS, CRGB::OrangeRed);
+    FastLED.show();
+  }
+
+  if (button8.risingEdge()) {
+    sound8.play("sound8.wav");
+    fill_solid(leds, NUM_LEDS, CRGB::LavenderBlush);
     FastLED.show();
   }
 
