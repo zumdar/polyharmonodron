@@ -29,6 +29,10 @@ Special thank you to Peter Chu for taking the model into Fusion and making this 
  button7 = pin 10<br>
  button8 = pin 11<br>
 
+## ws2812 (led strip) output
+LED_PIN - 9 
+
+
  ## audio shield (automatic but good to remember)
  MCLK - 23<br>
  BCLK - 21<br>
