@@ -20,17 +20,17 @@ Special thank you to Peter Chu for taking the model into Fusion and making this 
 
 ## buttons
 
- button0 = pin 0
- button1 = pin 1
- button2 = pin 2
- button3 = pin 3
- button4 = pin 4
- button5 = pin 5
- button7 = pin 10
- button8 = pin 11
+ button0 = pin 0 <br>
+ button1 = pin 1 <br>
+ button2 = pin 2<br>
+ button3 = pin 3<br>
+ button4 = pin 4<br>
+ button5 = pin 5<br>
+ button7 = pin 10<br>
+ button8 = pin 11<br>
 
  ## audio shield (automatic but good to remember)
- MCLK - 23
- BCLK - 21
- LRCLK - 20
+ MCLK - 23<br>
+ BCLK - 21<br>
+ LRCLK - 20<br>
 DIN (audio output) - 7
