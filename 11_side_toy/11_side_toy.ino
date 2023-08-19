@@ -77,7 +77,6 @@ Bounce button4 = Bounce(4, 5);
 Bounce button5 = Bounce(5, 5);
 Bounce button6 = Bounce(6, 5);
 Bounce button7 = Bounce(10, 5);
-Bounce button8 = Bounce(11, 5);
 
 
 void setup() {
@@ -91,7 +90,8 @@ void setup() {
   pinMode(5, INPUT_PULLUP);
   pinMode(6, INPUT_PULLUP);
   pinMode(10, INPUT_PULLUP);
-  pinMode(11, INPUT_PULLUP);
+
+  digitalWrite(13, HIGH); // TURN on led so we know the thing is on
 
   // Initialize FastLED
   FastLED.addLeds<WS2812B, LED_PIN, GRB>(leds, NUM_LEDS);
@@ -149,61 +149,55 @@ void loop() {
   button5.update();
   button6.update();
   button7.update();
-  button8.update();
 
   // When the buttons are pressed, just start a sound playing.
   // The audio library will play each sound through the mixers
   // so any combination can play simultaneously.
   //
   if (button0.risingEdge()) {
-    sound0.play("sound0.wav");
+    sound0.play("harp-c4.wav");
     rainbowAnimation(); // Start the rainbow animation
     //    fill_solid(leds, NUM_LEDS, CRGB::Amethyst);
     //    FastLED.show();
   }
   if (button1.fallingEdge()) {
-    sound1.play("sound1.wav");
+    sound1.play("harp-c5.wav");
     colorWipeAnimation(CRGB::Green); // Start the color wipe animation with green color
     //    fill_solid(leds, NUM_LEDS, CRGB::Aquamarine);
     //    FastLED.show();
   }
   if (button2.fallingEdge()) {
-    sound2.play("sound2.wav");
+    sound2.play("harp-c6.wav");
     fill_solid(leds, NUM_LEDS, CRGB::Chartreuse);
     FastLED.show();
   }
   if (button3.fallingEdge()) {
-    sound3.play("sound3.wav");
+    sound3.play("harp-c7.wav");
     fill_solid(leds, NUM_LEDS, CRGB::Coral);
     FastLED.show();
   }
   if (button4.fallingEdge()) {
-    sound4.play("sound4.wav");
+    sound4.play("harp-c8.wav");
     fill_solid(leds, NUM_LEDS, CRGB::DeepPink);
     FastLED.show();
   }
   if (button5.fallingEdge()) {
-    sound5.play("sound5.wav");
+    sound5.play("pizzicato-g5.wav");
     fill_solid(leds, NUM_LEDS, CRGB::SlateBlue);
     FastLED.show();
   }
   if (button6.fallingEdge()) {
-    sound6.play("sound6.wav");
+    sound6.play("tabla-long.wav");
     fill_solid(leds, NUM_LEDS, CRGB::Yellow);
     FastLED.show();
   }
 
   if (button7.fallingEdge()) {
-    sound7.play("sound7.wav");
+    sound7.play("tabla-short.wav");
     fill_solid(leds, NUM_LEDS, CRGB::OrangeRed);
     FastLED.show();
   }
 
-  if (button8.risingEdge()) {
-    sound8.play("sound8.wav");
-    fill_solid(leds, NUM_LEDS, CRGB::LavenderBlush);
-    FastLED.show();
-  }
 
 }
 
