@@ -4,7 +4,7 @@
    height="11in"
    version="1.1"
    id="svg26"
-   sodipodi:docname="11_sided_laser.svg"
+   sodipodi:docname="11_sided_laser_arrange_for_GLOWFORGE.svg"
    inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -37,13 +37,13 @@
      inkscape:window-height="1001"
      id="namedview28"
      showgrid="false"
-     inkscape:zoom="0.125"
-     inkscape:cx="-1420"
-     inkscape:cy="-140"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="565.68543"
+     inkscape:cy="368.40263"
      inkscape:window-x="-9"
-     inkscape:window-y="1341"
+     inkscape:window-y="-9"
      inkscape:window-maximized="1"
-     inkscape:current-layer="g5828"
+     inkscape:current-layer="g24"
      inkscape:showpageshadow="2"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
@@ -613,36 +613,22 @@
        inkscape:label="0"
        transform="translate(484.0115,-538.5134)"
        style="fill:#ffffff" />
-    <g
-       id="g5074"
-       transform="rotate(-52.380998,1826.292,1010.9495)">
-      <g
-         id="g895"
-         transform="translate(1170.2057,-369.74104)">
-        <path
-           inkscape:connector-curvature="0"
-           d="m 168.38152,551.08036 -687.435,-7.12022 178.17092,393.70132 z"
-           style="fill:#ffffff;stroke:#000000"
-           id="path4869"
-           transform="translate(484.0115,-538.5134)" />
-        <text
-           xml:space="preserve"
-           style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
-           x="161"
-           y="294.51965"
-           id="text4931"><tspan
-             sodipodi:role="line"
-             id="tspan4929"
-             x="161"
-             y="294.51965">14</tspan></text>
-        <circle
-           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5"
-           id="circle4834-7"
-           cx="254"
-           cy="135.51965"
-           r="48.883858" />
-      </g>
-    </g>
+    <path
+       inkscape:connector-curvature="0"
+       d="M 842.18738,286.76149 416.93179,826.92375 837.53452,926.11523 Z"
+       style="fill:#ffffff;stroke:#000000"
+       id="path4869" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+       x="-204.45532"
+       y="1124.0801"
+       id="text4931"
+       transform="rotate(-52.380998)"><tspan
+         sodipodi:role="line"
+         id="tspan4929"
+         x="-204.45532"
+         y="1124.0801">14</tspan></text>
     <g
        id="g5067"
        transform="translate(-364.34837,-18.032453)">
@@ -674,42 +660,13 @@
          cy="440.53851"
          r="48.883858" />
     </g>
-    <g
-       id="g5828"
-       transform="translate(1716.8552,-831.38858)">
-      <g
-         id="g902"
-         transform="rotate(0.33604629,-90193.112,-268858.75)">
-        <g
-           style="fill:#ffffff"
-           id="g5173"
-           inkscape:label="0"
-           transform="translate(319.02672,-190.90059)">
-          <path
-             id="path5171"
-             style="fill:#ffffff;stroke:#000000"
-             d="m 543.19459,694.09866 -0.33241,523.48664 -252.34803,94.8096 -0.77064,-711.99082 z"
-             inkscape:connector-curvature="0" />
-        </g>
-        <circle
-           r="95.75"
-           cy="765.50067"
-           cx="735.49548"
-           id="path5239"
-           style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5" />
-        <text
-           id="text4640-90-7"
-           y="783.32251"
-           x="588.8548"
-           style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
-           xml:space="preserve"
-           transform="rotate(-10.344125)"><tspan
-             y="783.32251"
-             x="588.8548"
-             id="tspan4638-0-8"
-             sodipodi:role="line">10</tspan></text>
-      </g>
-    </g>
+    <circle
+       r="95.75"
+       cy="554.11182"
+       cx="1439.6935"
+       id="path5239"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5"
+       transform="rotate(0.33604629)" />
     <g
        id="g5835"
        transform="rotate(-90,1520.702,-281.58988)">
@@ -821,6 +778,48 @@
            id="path5770"
            d="m -88.9703,1544.2312 528.3388,-7.2515"
            style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g1333">
+      <g
+         style="fill:#ffffff"
+         id="g5173"
+         inkscape:label="0"
+         transform="rotate(0.33604629,86517.168,104507.31)">
+        <path
+           id="path5171"
+           style="fill:#ffffff;stroke:#000000"
+           d="m 543.19459,694.09866 -0.33241,523.48664 -252.34803,94.8096 -0.77064,-711.99082 z"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="text4640-90-7"
+         y="506.8241"
+         x="932.56244"
+         style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+         xml:space="preserve"
+         transform="rotate(-10.008079)"><tspan
+           y="506.8241"
+           x="932.56244"
+           id="tspan4638-0-8"
+           sodipodi:role="line">10</tspan></text>
+      <g
+         id="g1200"
+         transform="translate(-1.5760191e-5)">
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5"
+           id="circle4834-7"
+           cx="267.52829"
+           cy="1088.3813"
+           r="48.883858"
+           transform="rotate(-52.380998)" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.274502"
+           id="path1196"
+           cx="989.05438"
+           cy="452.45084"
+           r="2.9594707" />
       </g>
     </g>
   </g>

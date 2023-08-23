@@ -54,6 +54,9 @@ AudioConnection          patchCord23(mixL3, 0, i2s1, 0);
 AudioConnection          patchCord24(mixR3, 0, i2s1, 1);
 // GUItool: end automatically generated code
 
+#define SDCARD_CS_PIN    10
+#define SDCARD_MOSI_PIN  7
+#define SDCARD_SCK_PIN   14
 /// LED SETUP //////
 
 
@@ -90,7 +93,7 @@ void setup() {
   pinMode(5, INPUT_PULLUP);
   pinMode(6, INPUT_PULLUP);
   pinMode(10, INPUT_PULLUP);
-
+  pinMode(13, OUTPUT);      
   digitalWrite(13, HIGH); // TURN on led so we know the thing is on
 
   // Initialize FastLED
@@ -106,6 +109,17 @@ void setup() {
   // turn on the output
   audioShield.enable();
   audioShield.volume(0.5);
+
+
+  SPI.setMOSI(SDCARD_MOSI_PIN);
+  SPI.setSCK(SDCARD_SCK_PIN);
+  if (!(SD.begin(SDCARD_CS_PIN))) {
+    // stop here, but print a message repetitively
+    while (1) {
+      Serial.println("Unable to access the SD card");
+      delay(500);
+    }
+  }
 
   // by default the Teensy 3.1 DAC uses 3.3Vp-p output
   // if your 3.3V power has noise, switching to the
@@ -155,7 +169,7 @@ void loop() {
   // so any combination can play simultaneously.
   //
   if (button0.risingEdge()) {
-    sound0.play("harp-c4.wav");
+    sound0.play("SDTEST1.wav");
     rainbowAnimation(); // Start the rainbow animation
     //    fill_solid(leds, NUM_LEDS, CRGB::Amethyst);
     //    FastLED.show();
