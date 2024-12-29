@@ -1,0 +1,826 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="19.5in"
+   height="11in"
+   version="1.1"
+   id="svg26"
+   sodipodi:docname="11_sided_laser_arrange_for_GLOWFORGE.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <metadata
+     id="metadata30">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     id="namedview28"
+     showgrid="false"
+     inkscape:zoom="0.70710678"
+     inkscape:cx="565.68543"
+     inkscape:cy="368.40263"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g24"
+     inkscape:showpageshadow="2"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="in" />
+  <desc
+     id="desc2">C:\Users\moogtron 4k\Desktop\projects\toys\11 sided button machine\sktch16.dxf - scale = 1.000000, origin = (0.000000, 0.000000), method = manual</desc>
+  <defs
+     id="defs16">
+    <marker
+       id="DistanceX"
+       orient="auto"
+       refX="0"
+       refY="0"
+       style="overflow:visible">
+      <path
+         d="M 3,-3 -3,3 M 0,-5 V 5"
+         style="stroke:#000000;stroke-width:0.5"
+         id="path4" />
+    </marker>
+    <pattern
+       height="8"
+       id="Hatch"
+       patternUnits="userSpaceOnUse"
+       width="8"
+       x="0"
+       y="0">
+      <path
+         d="M8 4 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path7" />
+      <path
+         d="M6 2 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path9" />
+      <path
+         d="M4 0 l-4,4"
+         linecap="square"
+         stroke="#000000"
+         stroke-width="0.25"
+         id="path11" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE" />
+    <symbol
+       id="*PAPER_SPACE" />
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-6">
+      <path
+         id="path4560"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-9"
+       height="8">
+      <path
+         id="path4563"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path4565"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path4567"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-0" />
+    <symbol
+       id="*PAPER_SPACE-3" />
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-0">
+      <path
+         id="path4659"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-0"
+       height="8">
+      <path
+         id="path4662"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path4664"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path4666"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-7" />
+    <symbol
+       id="*PAPER_SPACE-7" />
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-8">
+      <path
+         id="path4752"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-04"
+       height="8">
+      <path
+         id="path4755"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path4757"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path4759"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-78" />
+    <symbol
+       id="*PAPER_SPACE-5" />
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-4">
+      <path
+         id="path4853"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-2"
+       height="8">
+      <path
+         id="path4856"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path4858"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path4860"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-6" />
+    <symbol
+       id="*PAPER_SPACE-0" />
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-88">
+      <path
+         id="path4941"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-5"
+       height="8">
+      <path
+         id="path4944"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path4946"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path4948"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-75" />
+    <symbol
+       id="*PAPER_SPACE-4" />
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-00">
+      <path
+         id="path5145"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-8"
+       height="8">
+      <path
+         id="path5148"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path5150"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path5152"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-1" />
+    <symbol
+       id="*PAPER_SPACE-59" />
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-2">
+      <path
+         id="path5261"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-99"
+       height="8">
+      <path
+         id="path5264"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path5266"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path5268"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-3" />
+    <symbol
+       id="*PAPER_SPACE-00" />
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-9">
+      <path
+         id="path5432"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-4"
+       height="8">
+      <path
+         id="path5435"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path5437"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path5439"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-32" />
+    <symbol
+       id="*PAPER_SPACE-02" />
+    <marker
+       style="overflow:visible"
+       refY="0"
+       refX="0"
+       orient="auto"
+       id="DistanceX-3">
+      <path
+         id="path5712"
+         style="stroke:#000000;stroke-width:0.5"
+         d="M 3,-3 -3,3 M 0,-5 V 5" />
+    </marker>
+    <pattern
+       y="0"
+       x="0"
+       width="8"
+       patternUnits="userSpaceOnUse"
+       id="Hatch-82"
+       height="8">
+      <path
+         id="path5715"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M8 4 l-4,4" />
+      <path
+         id="path5717"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M6 2 l-4,4" />
+      <path
+         id="path5719"
+         stroke-width="0.25"
+         stroke="#000000"
+         linecap="square"
+         d="M4 0 l-4,4" />
+    </pattern>
+    <symbol
+       id="*MODEL_SPACE-2" />
+    <symbol
+       id="*PAPER_SPACE-6" />
+  </defs>
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="0"
+     id="g24">
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB';letter-spacing:0px;word-spacing:0px"
+       x="384.46219"
+       y="644.44928"
+       id="text4632" />
+    <g
+       id="g5087"
+       transform="translate(-856.81414,231.84776)">
+      <path
+         inkscape:connector-curvature="0"
+         id="path20"
+         style="fill:#ffffff;stroke:#000000"
+         d="m 107.12449,880.1361 397.7617,192.3332 0.95116,-682.99036 z" />
+      <circle
+         r="48.883858"
+         cy="801.20764"
+         cx="354.94507"
+         id="path4556"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5" />
+      <text
+         id="text4636"
+         y="631.51965"
+         x="413"
+         style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+         xml:space="preserve"><tspan
+           y="631.51965"
+           x="413"
+           id="tspan4634"
+           sodipodi:role="line">16</tspan></text>
+    </g>
+    <g
+       id="g5103"
+       transform="rotate(-29.569006,-1525.8758,511.38072)">
+      <g
+         style="fill:#ffffff"
+         transform="translate(1561.2948,-78.151217)"
+         inkscape:label="0"
+         id="g4679">
+        <path
+           inkscape:connector-curvature="0"
+           d="M -626.16766,1321.5112 -25.691413,1112.7602 -304.17523,770.23523 Z"
+           style="fill:#ffffff;stroke:#000000"
+           id="path4675" />
+      </g>
+      <circle
+         r="48.883858"
+         cy="959.51965"
+         cx="1245"
+         id="path4556-3-7"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5" />
+      <text
+         id="text4640-9"
+         y="867.45349"
+         x="1227.5479"
+         style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+         xml:space="preserve"><tspan
+           y="867.45349"
+           x="1227.5479"
+           id="tspan4638-7"
+           sodipodi:role="line">18</tspan></text>
+    </g>
+    <g
+       id="g5851">
+      <g
+         transform="rotate(-2.7104966,-20815.016,29096.703)"
+         id="g5132">
+        <g
+           transform="rotate(-23.065569,863.65504,696.2465)"
+           id="g4616"
+           style="fill:#ffffff">
+          <g
+             transform="rotate(33.359719,619.34502,2078.2502)"
+             inkscape:label="0"
+             id="g4580"
+             style="fill:#ffffff">
+            <path
+               inkscape:connector-curvature="0"
+               d="M -10.525462,1070.2318 320.1841,531.97869 -288.75707,727.56982 Z"
+               style="fill:#ffffff;stroke:#000000"
+               id="path4576" />
+          </g>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+           x="683.60858"
+           y="657.06543"
+           id="text4640"><tspan
+             sodipodi:role="line"
+             id="tspan4638"
+             x="683.60858"
+             y="657.06543">15</tspan></text>
+      </g>
+      <circle
+         transform="rotate(-2.7104966)"
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5"
+         id="circle4834"
+         cx="-523.51306"
+         cy="-323.14026"
+         r="48.883858" />
+    </g>
+    <g
+       id="g5081"
+       transform="rotate(-41.918276,-600.81765,291.96077)">
+      <g
+         id="g5115"
+         transform="rotate(-10.344125,3417.6781,5403.8676)">
+        <g
+           transform="translate(-65.053824,230.51681)"
+           id="g5107">
+          <g
+             style="fill:#ffffff"
+             transform="translate(1170.4991,-1134.0488)"
+             inkscape:label="0"
+             id="g4772">
+            <path
+               inkscape:connector-curvature="0"
+               d="m -503.70442,1540.0804 689.7359,4.0745 -190.581499,-398.7401 z"
+               style="fill:#ffffff;stroke:#000000"
+               id="path4768" />
+          </g>
+        </g>
+        <text
+           xml:space="preserve"
+           style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+           x="758.1933"
+           y="588.17529"
+           id="text4640-90"><tspan
+             sodipodi:role="line"
+             id="tspan4638-0"
+             x="758.1933"
+             y="588.17529">17</tspan></text>
+        <circle
+           r="48.883858"
+           cy="503.11493"
+           cx="1026.2926"
+           id="circle4834-6"
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5" />
+      </g>
+    </g>
+    <g
+       id="g4873"
+       inkscape:label="0"
+       transform="translate(484.0115,-538.5134)"
+       style="fill:#ffffff" />
+    <path
+       inkscape:connector-curvature="0"
+       d="M 842.18738,286.76149 416.93179,826.92375 837.53452,926.11523 Z"
+       style="fill:#ffffff;stroke:#000000"
+       id="path4869" />
+    <text
+       xml:space="preserve"
+       style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+       x="-204.45532"
+       y="1124.0801"
+       id="text4931"
+       transform="rotate(-52.380998)"><tspan
+         sodipodi:role="line"
+         id="tspan4929"
+         x="-204.45532"
+         y="1124.0801">14</tspan></text>
+    <g
+       id="g5067"
+       transform="translate(-364.34837,-18.032453)">
+      <g
+         style="fill:#ffffff"
+         transform="translate(128.57125,-458.87974)"
+         inkscape:label="0"
+         id="g4961">
+        <path
+           inkscape:connector-curvature="0"
+           d="m -575.6632,601.35627 -1.52125,683.48403 393.71985,-502.12338 z"
+           style="fill:#ffffff;stroke:#000000"
+           id="path4957" />
+      </g>
+      <text
+         xml:space="preserve"
+         style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+         x="-204.74159"
+         y="387.93762"
+         id="text4931-8"><tspan
+           sodipodi:role="line"
+           id="tspan4929-1"
+           x="-204.74159"
+           y="387.93762">13</tspan></text>
+      <circle
+         style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5"
+         id="circle4834-7-9"
+         cx="-323.54803"
+         cy="440.53851"
+         r="48.883858" />
+    </g>
+    <circle
+       r="95.75"
+       cy="554.11182"
+       cx="1439.6935"
+       id="path5239"
+       style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5"
+       transform="rotate(0.33604629)" />
+    <g
+       id="g5835"
+       transform="rotate(-90,1520.702,-281.58988)">
+      <g
+         style="fill:#ffffff"
+         transform="translate(1138.9628,253.45459)"
+         inkscape:label="0"
+         id="g5289">
+        <path
+           inkscape:connector-curvature="0"
+           d="m -100.55195,578.21855 -93.07509,253.1505 719.32554,-5.5163 -94.95875,-251.09494 z"
+           style="fill:#ffffff;stroke:#000000"
+           id="path5287" />
+      </g>
+      <circle
+         r="95.75"
+         cy="956.01965"
+         cx="1307.5"
+         id="path5239-8"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5" />
+      <text
+         id="text4640-90-7-8"
+         y="1295.9127"
+         x="1286.8872"
+         style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+         xml:space="preserve"
+         transform="rotate(-10.344125)"><tspan
+           y="1295.9127"
+           x="1286.8872"
+           id="tspan4638-0-8-9"
+           sodipodi:role="line">9</tspan></text>
+    </g>
+    <g
+       id="g5842"
+       transform="translate(-1016.6855,311.25466)">
+      <g
+         style="fill:#ffffff"
+         transform="translate(1494.0615,-867.69368)"
+         inkscape:label="0"
+         id="g5460">
+        <path
+           inkscape:connector-curvature="0"
+           d="m -169.1855,1315.2896 -1.25464,-713.65158 -251.70323,93.37436 1.29843,526.96902 z"
+           style="fill:#ffffff;stroke:#000000"
+           id="path5458" />
+      </g>
+      <circle
+         r="95.75"
+         cy="90.770531"
+         cx="1198.3972"
+         id="path5239-2"
+         style="fill:#ffffff;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5" />
+      <text
+         id="text4640-90-7-4"
+         y="475.06165"
+         x="1111.3147"
+         style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+         xml:space="preserve"
+         transform="rotate(-10.344125)"><tspan
+           y="475.06165"
+           x="1111.3147"
+           id="tspan4638-0-8-1"
+           sodipodi:role="line">8</tspan></text>
+    </g>
+    <g
+       id="g5889"
+       style="fill:#000000"
+       transform="rotate(-90,2085.8753,-343.86633)">
+      <text
+         id="text4640-90-7-4-5"
+         y="1007.7164"
+         x="1510.5677"
+         style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px;fill:#000000"
+         xml:space="preserve"
+         transform="rotate(-10.344125)"><tspan
+           y="1007.7164"
+           x="1510.5677"
+           id="tspan4638-0-8-1-7"
+           sodipodi:role="line">6</tspan></text>
+      <circle
+         r="95.75"
+         cy="638.69122"
+         cx="1884.0463"
+         id="path5239-2-8"
+         style="fill:#000000;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5" />
+      <g
+         style="fill:#000000"
+         transform="translate(1713.2561,-775.74177)"
+         inkscape:label="0"
+         id="g5744">
+        <path
+           sodipodi:nodetypes="cc"
+           inkscape:connector-curvature="0"
+           d="m -188.0303,1293.7434 99.258908,250.8922"
+           style="fill:#000000;stroke:#000000"
+           id="path5738" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m -188.07449,1293.7434 717.63516,-9.197"
+           style="fill:#000000;stroke:#000000"
+           id="path5740" />
+        <path
+           inkscape:connector-curvature="0"
+           d="m 439.11171,1537.2799 90.49315,-252.7335"
+           style="fill:#000000;stroke:#000000"
+           id="path5742" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path5770"
+           d="m -88.9703,1544.2312 528.3388,-7.2515"
+           style="fill:#000000;stroke:#000000;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1" />
+      </g>
+    </g>
+    <g
+       id="g1333">
+      <g
+         style="fill:#ffffff"
+         id="g5173"
+         inkscape:label="0"
+         transform="rotate(0.33604629,86517.168,104507.31)">
+        <path
+           id="path5171"
+           style="fill:#ffffff;stroke:#000000"
+           d="m 543.19459,694.09866 -0.33241,523.48664 -252.34803,94.8096 -0.77064,-711.99082 z"
+           inkscape:connector-curvature="0" />
+      </g>
+      <text
+         id="text4640-90-7"
+         y="506.8241"
+         x="932.56244"
+         style="font-size:40px;line-height:1.25;font-family:William_handwriting_v1;-inkscape-font-specification:William_handwriting_v1;letter-spacing:0px;word-spacing:0px"
+         xml:space="preserve"
+         transform="rotate(-10.008079)"><tspan
+           y="506.8241"
+           x="932.56244"
+           id="tspan4638-0-8"
+           sodipodi:role="line">10</tspan></text>
+      <g
+         id="g1200"
+         transform="translate(-1.5760191e-5)">
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0.5"
+           id="circle4834-7"
+           cx="267.52829"
+           cy="1088.3813"
+           r="48.883858"
+           transform="rotate(-52.380998)" />
+        <circle
+           style="fill:none;stroke:#000000;stroke-width:0.274502"
+           id="path1196"
+           cx="989.05438"
+           cy="452.45084"
+           r="2.9594707" />
+      </g>
+    </g>
+  </g>
+</svg>

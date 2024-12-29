@@ -1,17 +1,24 @@
+
+![Alt text](image.png)
 # polyharmonodron
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
-a toy for my neice's 2nd birthday
+a toy for my neice's 2nd birthday!
 
 its an 11 sided polyhedron
 
 its has 9 buttons and 2 speakers
 
+## Update 12.29.2024
+now includes a special mode where if you input the correct sequence, it plays a special sound and rainbow lighting sequence!
+
+# credits
+![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
+
 Special thank you to Jason Coombs for modeling the 11 sided object and making the .blend file. 
 
 Special thank you to Peter Chu for taking the model into Fusion and making this wireframe so I could 3d print it and put the laser cut acrylic in it. 
 
-![Alt text](image.png)
 ![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png)
 
 # pinout
